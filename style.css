@@ -1,0 +1,12 @@
+/* Home Page styling */
+body {
+    background-color: rgb(249, 237, 221);
+    position: absolute;
+    align-items: center;
+}
+.box{
+    background-color: rgb(179, 183, 145);
+    position: relative;
+    padding: 50px;
+    text-align: center;
+}
