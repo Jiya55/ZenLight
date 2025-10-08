@@ -8,6 +8,7 @@ Notes for my easy scroll and important points:-
 5. for windows just in case mentioning to run backend on VSCode you need to install mangodb(community server) , node.js(LTS) from official websites then install them in yourworkspace just in case mentioningit for future reference ...in workspce terminal ( 
 >npm init -y
 >npm install express
->npm install mongoose )
-
+>npm install mongoose 
+>npm install -D nodemon
+)
 
