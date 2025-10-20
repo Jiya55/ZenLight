@@ -112,6 +112,7 @@ body {
     position:absolute;
     width: 500px;
     height: 500px;
+    
     background-image: url("Assets/ptn_1_shp_1.png");
 }
 .ptn_cnd_2{
@@ -124,5 +125,181 @@ body {
     position:absolute;
     width: 500px;
     height: 500px;
+    opacity: 40%;
     background-image: url("Assets/ptn_3_shp_1.png");
+}
+.shp_2_color_cnd_1{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_1_shp_2.png");
+}
+.shp_2_color_cnd_2{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_2_shp_2.png");
+}
+.shp_2_color_cnd_3{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_3_shp_2.png");
+}
+.shp_2_color_cnd_4{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_5_shp_2.png");
+}
+.shp_2_color_cnd_5{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_4_shp_2.png");
+}
+.shp_2_color_cnd_6{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_6_shp_2.png");
+}
+.shp_2_ptn_cnd_1{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/ptn_1_shp_2.png");
+}
+.shp_2_ptn_cnd_2{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/ptn_2_shp_2.png");
+}
+.shp_2_ptn_cnd_3{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    opacity: 40%;
+    background-image: url("Assets/ptn_3_shp_2.png");
+}
+
+#panel_1{
+    background-color: rgb(227, 231, 231);
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 600px;
+    right: 600px;
+}
+#color_1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    position: absolute;
+}
+#color_2{
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    left: 120px;
+    position: absolute;
+}
+#color_3{
+    background-color: rgb(0, 255, 85);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    left: 240px;
+    position: absolute;
+}
+#color_4{
+    
+    background-color: rgb(255, 147, 111);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    top: 120px;
+    left: 0px;
+    position: absolute;
+}
+#color_5{
+    background-color: rgb(248, 255, 39);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    left: 120px;
+    top: 120px;
+    position: absolute;
+}
+#color_6{
+    background-color: rgb(166, 0, 255);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    left: 240px;
+    top: 120px;
+    position: absolute;
+}
+#panel_2{
+    background-color: rgb(227, 231, 231);
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 1100px;
+    right: 600px;
+}
+#pattern_1{
+    background-color: rgb(185, 185, 185);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#pattern_2{
+    background-color: rgb(185, 185, 185);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    left: 120px;
+    position: absolute;
+}
+#pattern_3{
+    background-color: rgb(185, 185, 185);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    left: 240px;
+    position: absolute;
+}
+#panel_3{
+    background-color: rgb(227, 231, 231);
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    right: 600px;
+}
+#shape_1{
+    background-color: rgb(185, 185, 185);
+    height: 100px;
+    width: 50px;
+    margin: 20px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#shape_2{
+    background-color: rgb(185, 185, 185);
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    top: 50px;
+    left: 120px;
+    position: absolute;
 }

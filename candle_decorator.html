@@ -8,17 +8,55 @@
 </head>
 <body>
     <div id="container">
-        
+        <div id="candlestand">
+            <!--make this-->
+        </div>
         <div id="background">
-            <div id="candle"></div>
-            <div id="flame"></div>
+            <div id="candle" class="shape_1"></div>
+            <div id="flame" class="light_1"></div>
             <div id="color_cnd"></div>
             <div id="ptn_cnd"></div>
         </div>
-        <input type="button" value="NEXT" id="next_cnd" onclick="nextcnd()">
-        <input type="button" value="NEXT" id="next_color" onclick="nextcolor()">
-        <input type="button" value="NEXT" id="next_ptn" onclick="nextptn()">
-
+        <div id="panel_1">
+            <a onclick="set_color(1)">
+                <div id="color_1"></div>
+            </a>
+            <a onclick="set_color(2)">
+                <div id="color_2"></div>
+            </a>
+            <a onclick="set_color(3)">
+                <div id="color_3"></div>
+            </a>
+            <a onclick="set_color(4)">
+                <div id="color_4"></div>
+            </a>
+            <a onclick="set_color(5)">
+                <div id="color_5"></div>
+            </a>
+            <a onclick="set_color(6)">
+                <div id="color_6"></div>
+            </a>
+        </div>
+        <div id="panel_2">
+            <a onclick="set_pattern(1)">
+                <div id="pattern_1"></div>
+            </a>
+            <a onclick="set_pattern(2)">
+                <div id="pattern_2"></div>
+            </a>
+            <a onclick="set_pattern(3)">
+                <div id="pattern_3"></div>
+            </a>
+        </div>
+    </div>
+    <div id="panel_3">
+            <a onclick="set_shape(1)">
+                <div id="shape_1"></div>
+            </a>
+            <a onclick="set_shape(2)">
+                <div id="shape_2"></div>
+            </a>
+        </div>
     </div>
     <script src="code.js"></script>
 </body>
