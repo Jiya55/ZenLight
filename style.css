@@ -10,3 +10,119 @@ body {
     padding: 50px;
     text-align: center;
 }
+
+
+/* Candle Decorator Page styling */
+#container{
+    position: absolute;
+    margin: auto;
+    width: 755px;
+    height: 987px;
+
+}
+#background{
+    position:absolute;
+    width: 555px;
+    height: 887px;
+    left: 100px;
+    right: 100px;
+
+}
+#candle{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+}
+#flame{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+}
+#color-cnd{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+}
+#pattern-cnd{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+}
+.shape_1{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/shp_1.png");
+}
+.shape_2{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/shp_2.png");
+}
+.light_1{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/light_shp_1.png");
+}
+.light_2{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/light_shp_2.png");
+}
+.color_cnd_1{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_1_shp_1.png");
+}
+.color_cnd_2{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_2_shp_1.png");
+}
+.color_cnd_3{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_3_shp_1.png");
+}
+.color_cnd_4{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_4_shp_1.png");
+}
+.color_cnd_5{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_5_shp_1.png");
+}
+.color_cnd_6{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/clr_6_shp_1.png");
+}
+.ptn_cnd_1{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/ptn_1_shp_1.png");
+}
+.ptn_cnd_2{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/ptn_2_shp_1.png");
+}
+.ptn_cnd_3{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("Assets/ptn_3_shp_1.png");
+}
