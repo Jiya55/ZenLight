@@ -10,13 +10,27 @@ function set_shape(id) {
         candle.setAttribute("class", "shape_1");
         flame.setAttribute("class", "light_1");
         state.candle_type=1;
-    }
+        if(state.cnd_color!=0){
+            set_color(state.cnd_color)
+        };
+        if(state.pattern!=0){
+            set_pattern(state.pattern)
+        };
+
+    };
     if(id==2){
         candle.setAttribute("class", "shape_2");
         flame.setAttribute("class", "light_2");
         state.candle_type=2;
-    }
-}
+        };
+        if(state.cnd_color!=0){
+            set_color(state.cnd_color)
+        };
+        if(state.pattern!=0){
+            set_pattern(state.pattern)
+        };
+    };
+
 function set_color(id) {
     var color = document.getElementById("color_cnd");
     if (state.candle_type===1){
